@@ -15,7 +15,7 @@ while chance < 5:
     else :
         print("Guess a little lower number")
 
-        chance += 1
+    chance += 1
 
     if not chance < 5 :
         print("You lose . The number is" , number)
